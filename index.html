@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ROCK | PAPER | SCISSORS</title>
+		<script
+			src="https://kit.fontawesome.com/014d29d828.js"
+			crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Staatliches&display=swap"
+			rel="stylesheet" />
+
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="loading-img">
+			<div class="loading-line"></div>
+		</div>
+
+		<div class="game">
+			<div class="shadow"></div>
+			<h1 class="title">
+				ROCK<br />
+				PAPER<br />SCISSORS
+			</h1>
+			<div class="points-box">
+				<p class="player">you</p>
+				<span class="player-points">0</span>
+				<span>-</span>
+				<span class="comp-points">0</span>
+				<p class="comp">cpu</p>
+			</div>
+			<button class="menu"><i class="fa-solid fa-sliders"></i></button>
+			<i class="fa-solid fa-map-location-dot map-logo"></i>
+			
+			<div class="options-box">
+				<div class="player-options">
+					<img
+						data-option="ROCK"
+						class="player-option-rock "
+						src="./images/rock_preview_rev_1 (1).png"
+						alt="Rock image" />
+					<img
+						data-option="PAPER"
+						class="player-option-paper "
+						src="./images/paper_preview_rev_1 (1).png"
+						alt="Paper image" />
+					<img
+						data-option="SCISSORS"
+						class="player-option-scissors "
+						src="./images/scissors_preview_rev_1 (1).png"
+						alt="Scissors image" />
+				</div>
+				<div class="comp-options">
+					<img
+						data-option="ROCK"
+						class="comp-option-rock "
+						src="./images/comp-rock.png"
+						alt="Rock image" />
+					<img
+						data-option="PAPER"
+						class="comp-option-paper "
+						src="./images/comp-paper (1).png"
+						alt="Paper image" />
+					<img
+						data-option="SCISSORS"
+						class="comp-option-scissors "
+						src="./images/comp-scissors.png"
+						alt="Scissors image" />
+				</div>
+			</div>
+			<div class="choice-box">
+				<button data-option="ROCK" class="choice-rock option">rock</button>
+				<button data-option="PAPER" class="choice-paper option">paper</button>
+				<button data-option="SCISSORS" class="choice-scissors option">scissors</button>
+			</div>
+		</div>
+		<button class="next-round">next round</button>
+		<div class="menu-body">
+			<h2 class="menu-title">settings</h2>
+			<i class="fa-solid fa-circle-xmark close-btn"></i>
+			<div class="menu-options-body">
+				<button class="volume">
+					<p>volume</p>
+				</button>
+				<button class="music">
+					<p>music</p>
+				</button>
+				<button class="language">
+					<p>language</p>
+				</button>
+			</div>
+		</div>
+		<div class="maps-box">
+			<h2 class="maps-title">choose map</h2>
+			<i class="fa-solid fa-circle-xmark maps-close-btn"></i>
+			<div class="maps-body">
+				<div class="map-one"></div>
+				<div class="map-two"></div>
+				<div class="map-three"></div>
+			</div>
+		</div>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
