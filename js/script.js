@@ -171,17 +171,17 @@ mapCloseBtn.addEventListener("click", () => {
 });
 
 mapOne.addEventListener("click", () => {
-	game.style.backgroundImage = 'url("../images/hero-img-one.jpg")';
+	game.style.backgroundImage = 'url("./images/hero-img-one.jpg")';
 	maps.style.display = "none";
 	gameBg.classList.remove("blur");
 });
 mapTwo.addEventListener("click", () => {
-	game.style.backgroundImage = 'url("../images/hero-img-two.jpg")';
+	game.style.backgroundImage = 'url("./images/hero-img-two.jpg")';
 	maps.style.display = "none";
 	gameBg.classList.remove("blur");
 });
 mapThree.addEventListener("click", () => {
-	game.style.backgroundImage = 'url("../images/hero-img-three.jpg")';
+	game.style.backgroundImage = 'url("./images/hero-img-three.jpg")';
 	maps.style.display = "none";
 	gameBg.classList.remove("blur");
 });
@@ -194,4 +194,3 @@ nextRoundBtn.addEventListener("click", () => {
 	nextRound();
 	nextRoundBtn.style.display = "none";
 });
-
