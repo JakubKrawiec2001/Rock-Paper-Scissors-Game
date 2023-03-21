@@ -195,9 +195,3 @@ nextRoundBtn.addEventListener("click", () => {
 	nextRoundBtn.style.display = "none";
 });
 
-// const firstVisit = localStorage.getItem("visited");
-// if (firstVisit == null) {
-// 	localStorage.setItem("visited", 1);
-// } else {
-// 	loadingRemove();
-// }
