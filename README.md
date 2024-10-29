@@ -1,6 +1,6 @@
 <h1 align="center" style="font-size: 50px">Rock-Paper-Scissors Game</h1>
 <hr>
-<img src="./public/readme-images/moviecine-mockup.jpg" width="1000" style="margin-left: 20px">
+<img src="./images/mockup-2.jpg" width="1000" style="margin-left: 20px">
 
 <br />
 
@@ -18,4 +18,7 @@ This is a simple Rock, Paper, Scissors game built with JavaScript. The game feat
 
 <br />
 
-<img src="./public/readme-images/moviecine.jpg">
+<img src="./images/mockup-1.jpg">
+<img src="./images/mockup-2.jpg">
+<img src="./images/mockup-3.jpg">
+<img src="./images/mockup-4.jpg">
